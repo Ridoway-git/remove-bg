@@ -1,0 +1,17 @@
+{
+  "name": "image-background-removal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@imgly/background-removal-node": "^1.4.5",
+    "express": "^5.1.0",
+    "multer": "^2.0.0"
+  }
+}

@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Log files
+*.log
+
+# Runtime files
+*.pid
+*.seed
+*.info
+
+# Temporary files
+*.tmp
+
+# Directories for uploaded and processed images
+uploads/
+public/outputs/
+
+# macOS system files
+.DS_Store
+
+# npm debug logs
+npm-debug.log*
+
+# Yarn lock file (if using Yarn)
+yarn.lock
+
+# Environment variables file
+.env 
