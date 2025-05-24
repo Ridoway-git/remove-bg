@@ -109,7 +109,5 @@ app.use((err, req, res, next) => {
     res.status(500).json({ error: 'Internal server error' });
 });
 
-// Start the server
-app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
-});
+// Export the Express app for Vercel
+module.exports = app;
